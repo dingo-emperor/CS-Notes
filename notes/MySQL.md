@@ -390,6 +390,8 @@ MySQL 提供了 FROM_UNIXTIME() 函数把 UNIX 时间戳转换为日期，并提
 
 ### 主从复制
 
+主从复制概念：[mysql主从复制和读写分离，看完这篇你就彻底懂了](https://developer.aliyun.com/article/926094)
+
 主要涉及三个线程：binlog 线程、I/O 线程和 SQL 线程。
 
 -   **binlog 线程**  ：负责将主服务器上的数据更改写入二进制日志（Binary log）中。
